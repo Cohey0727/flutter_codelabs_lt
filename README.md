@@ -17,7 +17,7 @@ docker-compose up -d
 npx hasura migrate apply --envfile .env.gqlengine --database-name default
 
 # アプリ準備
-# Androidまたは、iOSのエミュレーターを立ち上げて実行して下しさい。
+# Androidまたは、iOSのエミュレーターを立ち上げて実行して下さい。
 cd ../app
 flutter pub get
 flutter run
