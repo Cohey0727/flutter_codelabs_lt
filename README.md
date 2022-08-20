@@ -28,12 +28,18 @@ flutter run
 
 ## コード自動生成
 
-`app/lib/graphql/x`下の
+`app/lib/graphql/xxx`下の graphql ファイルを変更したのち下記のコマンドで`dart`ファイルが生成されます。
 
 ```sh
 # Hasura起動状態で
 cd app
 yarn codegen
+```
+
+## Hasura コンソール画面の起動
+
+```sh
+yarn start
 ```
 
 ## 利用した資料
