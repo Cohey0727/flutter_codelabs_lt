@@ -1,0 +1,10 @@
+mutation CreateUser($age: Int!, $companyName: String!, $fullName: String!) {
+  user: insert_User_one(
+    object: { age: $age, companyName: $companyName, fullName: $fullName }
+  ) {
+    id
+    fullName
+    companyName
+    age
+  }
+}

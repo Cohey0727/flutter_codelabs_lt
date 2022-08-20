@@ -1,0 +1,24 @@
+targets:
+  $default:
+    builders:
+      graphql_codegen:
+        options:
+          clients:
+            - graphql
+            - graphql_flutter
+          scopes:
+            - lib/graphql/**.graphql
+          addTypenameExcludedPaths:
+            - subscription
+          scalars:
+            uuid:
+              type: String
+            timestamptz:
+              type: DateTime
+            date:
+              type: DateTime
+            timestamp:
+              type: DateTime
+            _text:
+              type: List<String>
+          includeIfNullOnInput: false

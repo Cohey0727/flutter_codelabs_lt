@@ -1,0 +1,14 @@
+{
+  "name": "hasura",
+  "version": "1.0.0",
+  "description": "hasura",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "docker-compose up -d && sleep 5 && npx hasura console --envfile .env.gqlengine"
+  },
+  "devDependencies": {
+    "hasura-cli": "2.9.0"
+  }
+}
