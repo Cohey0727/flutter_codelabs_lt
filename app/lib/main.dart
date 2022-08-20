@@ -1,6 +1,6 @@
 import 'package:example/graphql.dart';
-import 'package:example/graphql/User/query.graphql.dart';
-import 'package:example/graphql/User/mutation.graphql.dart';
+import 'package:example/graphql/user/query.graphql.dart';
+import 'package:example/graphql/user/mutation.graphql.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
